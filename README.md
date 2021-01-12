@@ -4,7 +4,7 @@
 Team Members: Vikram, Matthew, and Mira
 
 Link to AIM Datathon: https://www.kaggle.com/c/aimdatathon2020/leaderboard <br>
-Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing
+Link to Google Collab Notebook: https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing
 ### Contents
 
 * [Problem](#Problem)
@@ -15,7 +15,7 @@ Link to Google Collab Notebook: https://colab.research.google.com/drive/1GFtlNPV
 * Exploratory Analysis (add if applicable)
 * [Validation Strategies (Train and Test Data Pre-processing, Training/Validation Split)](#Validation-Strategies)
 * Feature Engineering (add if applicable)
-* [Model Training,Tuning (Logistic Regression, XGBoost, AUC performance metric)](#Model-Training_and_Tuning)
+* [Model Training,Tuning (XGBoost with AUC performance metric)](#Model-Training_and_Tuning)
 * [Results,Model Performance,Interpretability](#Results_Model-Performance_and_Interpretability)
 * [Solution Video](#Solution-Video)
   * Link a short video (unlisted Youtube link) that walks through your approach from github and code from google collab.
@@ -54,10 +54,10 @@ Refer to Train and Test Data Pre-processing, Training/Validation Split subtitles
 -Training/Validation Split
 
 #### Model-Training_and_Tuning
-Refer to Logistic Regression and XGBoost subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 
+Refer to XGBoost subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for more detail. 
 
 #### Results_Model-Performance_and_Interpretability
-Refer to Results,.... subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1GFtlNPVoSZ1RHcb2DvUzaLY8mEgdqeAV?usp=sharing) for more detail. 
+Refer to Results,.... subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for more detail. 
 
 -Include Summary of Results/Discussion and Picture of Results here.
 
