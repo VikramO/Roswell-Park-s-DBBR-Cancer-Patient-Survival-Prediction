@@ -28,7 +28,7 @@ Stage Progression: https://colab.research.google.com/drive/1Un_WAmI-dcFe0WXgzBgw
 #### Solution
 - A clinical decision system to help physicians keep track of their patients' progress using their background and individualized molecular level data. A second solution was also developed to help physicians keep track of the stage progression of their patients' cancer types. The notebook for this solution deals with prostate cancer.
 
-*Note*: The ML pipeline was the same for both solutions, therefore notes in the patient survival notebook can be used for the stage progression notebook.
+*Note* : The ML pipeline was the same for both solutions, therefore notes in the patient survival notebook can be used for the stage progression notebook.
 
 #### ML-Pipeline
 --UPDATE THIS--
