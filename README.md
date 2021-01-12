@@ -1,4 +1,4 @@
-# Team-4-AIM-Datathon
+# Team 4 : AIM-Datathon
 ## Project Title: Predicting patient survival and stage progression in cancer patients
 
 Team Members: Vikram, Matthew, and Mira
