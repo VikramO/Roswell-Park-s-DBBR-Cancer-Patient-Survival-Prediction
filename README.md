@@ -14,10 +14,8 @@ Stage Progression: https://colab.research.google.com/drive/1Un_WAmI-dcFe0WXgzBgw
 * [Solution](#Solution) (Clinical Revelance of the Model)
 * [ML Pipeline](#ML-Pipeline)
 * [Data Management](#Data-Management)
-* [Study Design](#Study-Design)
-* Exploratory Analysis (add if applicable)
+* [Exploratory Data Analysis](#Study-Design)
 * [Validation Strategies (Train and Test Data Pre-processing, Training/Validation Split)](#Validation-Strategies)
-* Feature Engineering (add if applicable)
 * [Model Training,Tuning (XGBoost with AUC performance metric)](#Model-Training_and_Tuning)
 * [Results,Model Performance,Interpretability](#Results_Model-Performance_and_Interpretability)
 * [Solution Video](#Solution-Video)
@@ -33,6 +31,8 @@ Stage Progression: https://colab.research.google.com/drive/1Un_WAmI-dcFe0WXgzBgw
 *Note*: The ML pipeline was the same for both solutions, therefore notes in the patient survival notebook can be used for the stage progression notebook.
 
 #### ML-Pipeline
+--UPDATE THIS--
+
 - ML WorkFlow depicting the solution below.![Image](https://github.com/aimsymposium/Project-sample/raw/main/MLpipeline.png)
 - Add a link to your code(Google Colab). Refer to this [sample notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for further details.
 #### Data-Management
