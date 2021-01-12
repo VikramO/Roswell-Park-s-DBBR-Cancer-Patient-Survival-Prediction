@@ -59,12 +59,6 @@ Refer to Results,.... subtitles in the [Google Collab notebook](https://colab.re
 
 -Include Summary of Results/Discussion and Picture of Results here.
 
-
--Logistic Regression
-
-![Image](https://github.com/aimsymposium/Project-sample/blob/main/LogisiticRegression.PNG)
-
-
 -XGBoost
 
 ![Image](https://github.com/aimsymposium/Project-sample/blob/main/XGBoost.PNG)
