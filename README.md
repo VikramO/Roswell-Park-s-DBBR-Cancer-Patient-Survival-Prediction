@@ -14,7 +14,7 @@ Stage Progression: https://colab.research.google.com/drive/1Un_WAmI-dcFe0WXgzBgw
 * [Solution](#Solution) (Clinical Revelance of the Model)
 * [ML Pipeline](#ML-Pipeline)
 * [Data Management](#Data-Management)
-* [Exploratory Data Analysis](#Study-Design)
+* [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 * [Validation Strategies (Train and Test Data Pre-processing, Training/Validation Split)](#Validation-Strategies)
 * [Model Training,Tuning (XGBoost with AUC performance metric)](#Model-Training_and_Tuning)
 * [Results,Model Performance,Interpretability](#Results_Model-Performance_and_Interpretability)
