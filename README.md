@@ -33,9 +33,7 @@ Link to Google Collab Notebook: https://colab.research.google.com/drive/1q05LU9_
 #### Data-Management
 Refer to Data Pre-Processing subtitle in the [Google Collab notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for more detail. 
 - Data Pre-processing/ Cleansing/Transformations(Changing column names, Merging different data sources, etc). 
-- Methods for removing and selection of outliers
-- Methods for poor quality or missing data
-- Descriptive statistics(Pairwise correlation, ANOVA, Univariate Analysis, Odds Ratio).
+- Imputing missing data using mode of the feature
 #### Study-Design
 ( Below are answer templates that can be used to formulate a paragraph for Study Design based on the goal and exploratory data analysis)
 Refer to Race,FamilY History, Male and Female Primary Site, Histology, Grade and Stage Distribution subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for more detail. 
