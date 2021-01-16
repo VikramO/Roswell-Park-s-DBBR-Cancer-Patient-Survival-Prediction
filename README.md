@@ -46,16 +46,19 @@ Out of 785 males,the majority of the tumors were from the prostate gland as the 
 Out of 1215 females, the majority of the tumors were from the breast upper outer quadrant primary site(300 [24.69%]), infiltrating duct carcinoma(535 [44%]), grade II: moderately differentiated, intermediate differentiated (522 [43%]), and stage 1 (737 [60%]).
 
 #### Validation-Strategies 
-Refer to Train and Test Data Pre-processing, Training/Validation Split subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for more detail. 
+The performance of the XGBoost algorithm was evaluated by using both an independent testing dataset and through the construction of an ROC curve
 
--Train and Test Data Pre-processing
--Training/Validation Split
+-Train/Test Split: 80/20 
+
 
 #### Model-Training_and_Tuning
-Refer to XGBoost subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for more detail. 
+Hyperparameters were selected using a grid search algorithm 
 
 #### Results_Model-Performance_and_Interpretability
-Refer to Results,.... subtitles in the [Google Collab notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for more detail. 
+The XGBoost model acheived an overall accuracy of --UPDATE THIS--%
+The positive predictive power of the model was --UPDATE THIS--
+The negative predictive power of the model was --UPDATE THIS--
+
 
 -Include Summary of Results/Discussion and Picture of Results here.
 
