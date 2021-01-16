@@ -63,7 +63,7 @@ Refer to Results,.... subtitles in the [Google Collab notebook](https://colab.re
 
 ![image](https://user-images.githubusercontent.com/42708529/104794191-04021400-5774-11eb-92f0-ba1e87fab068.png)
 
-![image](https://user-images.githubusercontent.com/42708529/104794197-11b79980-5774-11eb-847f-1258cec7683d.png)
+
 
 #### Solution-Video
 --UPDATE THIS--
