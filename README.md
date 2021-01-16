@@ -31,9 +31,9 @@ Stage Progression: https://colab.research.google.com/drive/1Un_WAmI-dcFe0WXgzBgw
 *Note* : The ML pipeline was the same for both solutions, therefore notes in the patient survival notebook can be used for the stage progression notebook.
 
 #### ML-Pipeline
---UPDATE THIS--
 
-- ML WorkFlow depicting the solution below.![Image](https://github.com/aimsymposium/Project-sample/raw/main/MLpipeline.png)
+
+![image](https://user-images.githubusercontent.com/42708529/104794121-a5d53100-5773-11eb-8bb9-e901b48b661e.png)
 - Add a link to your code(Google Colab). Refer to this [sample notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for further details.
 #### Data-Management
 Refer to Data Pre-Processing subtitle in the [Google Collab notebook](https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) for more detail. 
