@@ -19,7 +19,6 @@ Stage Progression: https://colab.research.google.com/drive/1Un_WAmI-dcFe0WXgzBgw
 * [Model Training,Tuning (XGBoost with AUC performance metric)](#Model-Training_and_Tuning)
 * [Results,Model Performance,Interpretability](#Results_Model-Performance_and_Interpretability)
 * [Solution Video](#Solution-Video)
-  * Link a short video (unlisted Youtube link) that walks through your approach from github and code from google collab.
 * [Acknowledgments](#acknowledgments)
 
 #### Problem
