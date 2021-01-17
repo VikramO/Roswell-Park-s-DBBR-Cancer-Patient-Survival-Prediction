@@ -52,12 +52,10 @@ The performance of the XGBoost algorithm was evaluated by using both an independ
 
 
 #### Model-Training_and_Tuning
-Hyperparameters were selected using a grid search algorithm 
+Hyperparameters were selected by testing multiple models and selecting the set of hyperparameters that optimized model performance.
 
 #### Results_Model-Performance_and_Interpretability
-The XGBoost model acheived an overall accuracy of --UPDATE THIS--%
-The positive predictive power of the model was --UPDATE THIS--
-The negative predictive power of the model was --UPDATE THIS--
+Table
 
 
 -Include Summary of Results/Discussion and Picture of Results here.
