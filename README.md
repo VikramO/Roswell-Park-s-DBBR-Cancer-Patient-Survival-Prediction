@@ -64,9 +64,4 @@ Figure B: ROC curve
 
 The dotted orange line represents a theoretical model that predicts completely at random, i.e. a model with no actual predictive value. The blue line represents our model's performance on the test data. The further it stretches towards the top left corner, the better predictive value it has. Therefore, the area under the ROC curve can be thought of as a measure of the usefulness of the model. Our model achieved an area under the ROC curve of 70.84%
 #### Solution-Video
---UPDATE THIS--
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
-
-
-#### Acknowledgments
