@@ -55,12 +55,10 @@ The performance of the XGBoost algorithm was evaluated by using both an independ
 Hyperparameters were selected by testing multiple models and selecting the set of hyperparameters that optimized model performance.
 
 #### Results_Model-Performance_and_Interpretability
-Table
+![image](https://user-images.githubusercontent.com/42708529/104829275-3e38e780-5840-11eb-874b-37a78d505ae0.png)
 
+Our model acheived an overall accuracy of .75%
 
--Include Summary of Results/Discussion and Picture of Results here.
-
--XGBoost
 
 ![image](https://user-images.githubusercontent.com/42708529/104794191-04021400-5774-11eb-92f0-ba1e87fab068.png)
 
