@@ -14,6 +14,7 @@ Stage Progression: https://colab.research.google.com/drive/1Un_WAmI-dcFe0WXgzBgw
 * [Solution](#Solution) (Clinical Revelance of the Model)
 * [ML Pipeline](#ML-Pipeline)
 * [Data Management](#Data-Management)
+* [Study Design](#Study-Design)
 * [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 * [Validation Strategies (Train and Test Data Pre-processing, Training/Validation Split)](#Validation-Strategies)
 * [Model Training,Tuning (XGBoost with AUC performance metric)](#Model-Training_and_Tuning)
@@ -39,11 +40,14 @@ https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sh
 #### Data-Management
 Data from 17 different tables were merged together with a common unique identifier field to create a master copy of the data.
 Further, categorical data was numerically encoded using sklearn and missing values were imputed using the modes of the individual data fields. Summary statistics for each field were also computed.
+
+#### Study-Design
+
+*ADD HISTOGRAMS*
+
 #### Exploratory-Data-Analysis
-(2000 patients with various cancer types were included. A diverse patient population race was involved including whites (1860 [93%]),  African Americans (88 [4.5%]), American Indians (12 [0.6%]), Asians (7 [0.35%]),  Alaskan Natives (12 [1%]), Native Hawaiians (2 [0.15%]), and from other races (7 [0.45%]). The median age (interquartile range) was 62 (54-70) years old.  
-36% of the patients had a paternal history with cancer and the greatest proportion was 10% prostate cancer. 39% of the patients had a maternal history with cancer and the greatest proportion was 11% breast cancer. 
-Out of 785 males,the majority of the tumors were from the prostate gland as the primary site (371[47.2%]),adenocarcinoma(496 [63%]), grade III: Poorly differentiated , dedifferentiated (369 [47%]), and stage 1 (478[60%]) . 
-Out of 1215 females, the majority of the tumors were from the breast upper outer quadrant primary site(300 [24.69%]), infiltrating duct carcinoma(535 [44%]), grade II: moderately differentiated, ing/testing split differentiated (522 [43%]), and stage 1 (737 [60%]).
+
+*CONDUCT LINEAR REGRESSIONS*
 
 #### Validation-Strategies 
 The performance of the XGBoost algorithm was evaluated by using an independent testing dataset to assess overall accuracy. Also, an ROC curve was constructed to assess the true positive and false positive rates of the model. The training/testing split used was 80%/20%
