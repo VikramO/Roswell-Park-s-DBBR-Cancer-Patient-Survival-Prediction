@@ -37,26 +37,29 @@ There are many factors that impact cancer patient survival. These include gender
 ![image](https://user-images.githubusercontent.com/42708529/104794121-a5d53100-5773-11eb-8bb9-e901b48b661e.png)
 https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing(https://colab.research.google.com/drive/1q05LU9_PN0izalQToJjcnErrsL3kc4Ji?usp=sharing) 
 
-#### Data-Management
+#### Data Management
 Data from 17 different tables were merged together with a common unique identifier field to create a master copy of the data.
 Further, categorical data was numerically encoded using sklearn and missing values were imputed using the modes of the individual data fields. Summary statistics for each field were also computed.
 
-#### Study-Design
+#### Data Pre-Processing
+We process the data by encoding categorical columns and filling NaN values with the mode of the feature. Notice how we do not normalize the data or check for multicollinearity. This will make sense very shortly. We also notice that there is mild class imbalance between the two categories.
+
+#### Study Design
 
 *ADD HISTOGRAMS*
 
-#### Exploratory-Data-Analysis
+#### Exploratory Data Analysis
 
 *CONDUCT LINEAR REGRESSIONS*
 
-#### Validation-Strategies 
+#### Validation Strategies 
 The performance of the XGBoost algorithm was evaluated by using an independent testing dataset to assess overall accuracy. Also, an ROC curve was constructed to assess the true positive and false positive rates of the model. The training/testing split used was 80%/20%
 
 
-#### Model-Training_and_Tuning
+#### Model Training, Tuning, and Validation
 Hyperparameters were selected by testing multiple models and selecting the set of hyperparameters that optimized model performance.
 
-#### Results_Model-Performance_and_Interpretability
+#### Results: Model Performance and Interpretability
 ![image](https://user-images.githubusercontent.com/42708529/104829275-3e38e780-5840-11eb-874b-37a78d505ae0.png)
 Figure A: table of various performance metrics 
 
