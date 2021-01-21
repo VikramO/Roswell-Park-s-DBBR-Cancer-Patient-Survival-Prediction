@@ -45,8 +45,12 @@ Further, categorical data was numerically encoded using sklearn and missing valu
 We process the data by encoding categorical columns and filling NaN values with the mode of the feature. Notice how we do not normalize the data or check for multicollinearity. This will make sense very shortly. We also notice that there is mild class imbalance between the two categories.
 
 #### Study Design
+![histogram](https://user-images.githubusercontent.com/42708529/105274599-7c4d4880-5b6b-11eb-9372-104513620c3c.png)
+Figure A: Histogram of Cancer Types
 
-*ADD HISTOGRAMS*
+![red_histogram](https://user-images.githubusercontent.com/42708529/105274646-9424cc80-5b6b-11eb-9c63-21c6e5dd861a.png)
+Figure B: Histogram of Patient Ages
+
 
 #### Exploratory Data Analysis
 
@@ -61,19 +65,30 @@ Hyperparameters were selected by testing multiple models and selecting the set o
 
 #### Results: Model Performance and Interpretability
 ![image](https://user-images.githubusercontent.com/42708529/104829275-3e38e780-5840-11eb-874b-37a78d505ae0.png)
-Figure A: table of various performance metrics 
+Figure C: table of various performance metrics 
 
 Our model acheived an overall accuracy of 75%
 
 
 ![image](https://user-images.githubusercontent.com/42708529/104794191-04021400-5774-11eb-92f0-ba1e87fab068.png)
-Figure B: ROC curve
+Figure D: ROC Curve for Survival Analysis
 
 The dotted orange line represents a theoretical model that predicts completely at random, i.e. a model with no actual predictive value. The blue line represents our model's performance on the test data. The further it stretches towards the top left corner, the better predictive value it has. Therefore, the area under the ROC curve can be thought of as a measure of the usefulness of the model. Our model achieved an area under the ROC curve of 70.84%
 
 
 #### Cancer Stage Progression Analysis
 We applied the XGBoost model to the task of predicting tumor stage progression. For this task, we used the most prevalent cancer type in the dataset, which in this case happened to be prostate cancer. Here, the stsge of cancer is the target variable, and all of the other variables serve as predictors. The clinical relevance here is that when a physician is deciding whether to continue a certain course of treatment against a certain cancer, it is of critical importance to assess how quickly the tumor is progressing. Henceforth, this model serves as an additional tool to clinicians in their final assessment in the development of treatment plans.
+
+#### Stage Progression Results
+
+![results_stage_rogression](https://user-images.githubusercontent.com/42708529/105274874-1f05c700-5b6c-11eb-8903-37ae0a60e7b6.PNG)
+Figure E: Table of Stage Progression Model Results
+Our model acheived an overall accuracy of ~55%
+
+![roc_stage_progression](https://user-images.githubusercontent.com/42708529/105274677-a69f0600-5b6b-11eb-9205-a5cbe82f134c.png)
+Figure F: ROC Curve for Stage Progression
+![decision_tree_2](https://user-images.githubusercontent.com/42708529/105274657-9ab34400-5b6b-11eb-8e9a-63a31c6e2277.png)
+Figure G: Decision Tree for Stage Progression
 
 #### Solution-Video
 
