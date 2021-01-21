@@ -70,5 +70,14 @@ Our model acheived an overall accuracy of 75%
 Figure B: ROC curve
 
 The dotted orange line represents a theoretical model that predicts completely at random, i.e. a model with no actual predictive value. The blue line represents our model's performance on the test data. The further it stretches towards the top left corner, the better predictive value it has. Therefore, the area under the ROC curve can be thought of as a measure of the usefulness of the model. Our model achieved an area under the ROC curve of 70.84%
+
+
+#### Cancer Stage Progression Analysis
+We applied the XGBoost model to the task of predicting tumor stage progression. For this task, we used the most prevalent cancer type in the dataset, which in this case happened to be prostate cancer. Here, the stsge of cancer is the target variable, and all of the other variables serve as predictors. The clinical relevance here is that when a physician is deciding whether to continue a certain course of treatment against a certain cancer, it is of critical importance to assess how quickly the tumor is progressing. Henceforth, this model serves as an additional tool to clinicians in their final assessment in the development of treatment plans.
+
 #### Solution-Video
+
+
+
+
 
