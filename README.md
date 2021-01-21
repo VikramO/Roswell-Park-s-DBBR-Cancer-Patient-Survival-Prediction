@@ -89,6 +89,8 @@ Figure G: Decision Tree for Stage Progression
 #### Solution-Video
 
 
+#### Conclusion
 
+In this report, we used XGBoost to predict cancer patient mortality based on data from Roswell Park Cancer Center data repository. Our survivorship model had an overall accuracy of 75 %. Additionally, we modelled the likelihood of the progression of cancer stages based on the same dataset. Thkis model achieved an accuracy of ~55%. Although this model was more limited due to a restricted sample size, we believe that there is potential for this model to become more effective and useful with a larger sample size. Additionally, future directions of research include areas such as modelling longitudinal data and remission.
 
 
