@@ -52,10 +52,6 @@ Figure A: Histogram of Cancer Types
 Figure B: Histogram of Patient Ages
 
 
-#### Exploratory Data Analysis
-
-*CONDUCT LINEAR REGRESSIONS*
-
 #### Validation Strategies 
 The performance of the XGBoost algorithm was evaluated by using an independent testing dataset to assess overall accuracy. Also, an ROC curve was constructed to assess the true positive and false positive rates of the model. The training/testing split used was 80%/20%
 
